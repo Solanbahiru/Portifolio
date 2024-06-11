@@ -177,7 +177,7 @@ img
 }
 .navbar .menu .nav-item .nav-link
 {
-    color: var(--white);
+    color: var(--black-900);
     font-size: 16px;
     font-weight: 600;
     display: block;
@@ -192,7 +192,7 @@ img
 {
     width: 0;
     height: 2px;
-    background-color: var(--white);
+    background-color: var(--main-color);
     position: absolute;
     left: 0;
     bottom: 0;
@@ -207,7 +207,7 @@ img
     content: '';
     width: 0;
     height: 2px;
-    background-color: var(--white);
+    background-color: var(--main-color);
     left: 110%;
 }
 .navbar .nav-item .nav-link span::after
@@ -216,7 +216,7 @@ img
     content: '';
     width: 0;
     height: 2px;
-    background-color: var(--white);
+    background-color: var(--main-color);
     left: 140%;
 }
 .navbar.sticky .nav-item a span,.navbar.sticky .nav-item a span::before,.navbar.sticky .nav-item a span::after
@@ -334,25 +334,6 @@ img
     position: relative;
     width: 115%;
     z-index: 789;
-}
-.header-shape
-{
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 50%;
-    height: 100%;
-}
-.header-shape::before
-{
-    position: absolute;
-    content: '';
-    width: 1000%;
-    height: 100%;
-    background-color: var(--main-color);
-    transform: skewX(15deg);
-    top: 0;
-    left: 0;
 }
 /*===== About =====*/
 .about-section .about-image,
